@@ -1,0 +1,14 @@
+body { background: #1a1a2e; color: white; font-family: sans-serif; text-align: center; }
+.container { margin-top: 50px; }
+.part { stroke: #e94560; stroke-width: 4; fill: none; opacity: 0; transition: opacity 0.3s; }
+.visible { opacity: 1; } /* Bu sınıf parça gösterilince eklenecek */
+#word-box {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    letter-spacing: 12px;
+    min-height: 60px; /* Bu satır alanın yok olmasını engeller */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button { padding: 10px; margin: 5px; cursor: pointer; }
